@@ -8,12 +8,12 @@ words_per_minute: 200
 url: https://TonyYuChufang.github.io/fangGeBlog
 
 # Owner/author information
-owner:            yu
-name:           TonyYuChufang
+owner:            
+  name:           TonyYuChufang
   avatar:         avatar.jpg
   bio:            "Anyway do what you want"
   email:          15cfyu@stu.edu.cn
-  # Social networking links used in footer. Update and remove as you like.
+# Social networking links used in footer. Update and remove as you like.
         
   # google plus id, include the '+', eg +mmistakes
   google_plus:
