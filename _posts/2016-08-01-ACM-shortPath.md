@@ -9,14 +9,9 @@ comments: true
 
 <p>首先能所谓的最短路径算法，就是用于计算最短路径的方法，那么它主要包括三种。</p>
 
+`include <stdio.h>`
+
 <p>{{page.date|date_to_string}}</p>
-
-`If you want your page to validate under XHTML 1.0 Strict,
-you've got to put paragraph tags in your blockquotes:
-
-<blockquote>
-<p>For example.</p>
-</blockquote>
 
 
 
