@@ -9,9 +9,8 @@ title: 我的Blog
 
 <ul class="post-list">
   {% for post in site.posts %}
-  <li><a href = "{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+  <li>{{ post.date | date_to_string }}<a href = "{{ site.baseurl }}{{ post.url }}">{{ post.title }}
   </a></li><br>
-  {{ post.date | date: "%F" }} <br>
   {{ post.category }}<br>
   {{ post.excerpt }}
   {% endfor %}
