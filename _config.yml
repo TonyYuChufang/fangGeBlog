@@ -5,15 +5,19 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: https://TonyYuChufang.github.io
+url: https://TonyYuChufang.github.io/fangGeBlog
 
 # Owner/author information
 owner:            
+<<<<<<< HEAD
   name:           余楚放
+=======
+  name:           TonyYuChufang
+>>>>>>> 9824665fc076b2293e8d12e07eed97a6c6fa1a18
   avatar:         avatar.jpg
   bio:            "Anyway do what you want"
   email:          15cfyu@stu.edu.cn
-  # Social networking links used in footer. Update and remove as you like.
+# Social networking links used in footer. Update and remove as you like.
         
   # google plus id, include the '+', eg +mmistakes
   google_plus:
