@@ -3,10 +3,14 @@ layout: default
 title: 我的Blog
 ---
 
+<h2> {{ page.title }} </h2>
+
+<p> 最新文章 </p>
+
 <ul class="post-list">
   {% for post in site.posts %}
-  <a href = "{{ site.baseurl }} {{ post.url }}">{{ post.title }}
-  </a><br>
+  <li><a href = "{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+  </a></li><br>
   {{ post.date | date: "%F" }} <br>
   {{ post.category }}<br>
   {{ post.excerpt }}
