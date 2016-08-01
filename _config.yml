@@ -1,5 +1,6 @@
 baseurl: /fangGeBlog 
 safe: false
-pygments: true
+pygments: false
+highlighter: rouge
 excerpt_separator: "\n\n\n"
 encoding: UTF-8
